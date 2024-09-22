@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "work-chunking",
+    "name": "Work Chunking",
     "slug": "work-chunking",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/icon_Tardis.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
@@ -18,10 +18,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.mtcoder.workchunking"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "9065ce67-9e4a-4598-9368-1d129e583cff"
+      }
     }
   }
 }
